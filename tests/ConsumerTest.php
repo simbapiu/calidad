@@ -17,4 +17,5 @@ class ConsumerTest extends \PHPUnit_Framework_TestCase
         $result = $consumer->nombreCompleto();
         $this->assertEquals('Ricardo Zaldivar', $result);
     }
+    
 }
